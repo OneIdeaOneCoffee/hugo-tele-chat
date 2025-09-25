@@ -29,7 +29,7 @@ export const Footer = () => {
                   <button
                     key={link.id}
                     onClick={() => document.getElementById(link.id)?.scrollIntoView({ behavior: 'smooth' })}
-                    className="block text-muted-foreground hover:text-primary transition-smooth"
+                    className="block text-muted-foreground hover:text-primary transition-smooth cursor-pointer"
                   >
                     {link.label}
                   </button>

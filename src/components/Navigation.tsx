@@ -39,7 +39,7 @@ export const Navigation = () => {
           {/* Logo */}
           <button 
             onClick={() => scrollToSection('hero')}
-            className="text-2xl font-bold gradient-text hover:scale-105 transition-smooth"
+            className="text-2xl font-bold gradient-text hover:scale-105 transition-smooth cursor-pointer"
           >
             Sampaio
           </button>
@@ -50,7 +50,7 @@ export const Navigation = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground hover:text-primary transition-smooth hover:scale-105"
+                className="text-foreground hover:text-primary transition-smooth hover:scale-105 cursor-pointer"
               >
                 {item.label}
               </button>
@@ -84,7 +84,7 @@ export const Navigation = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-left text-foreground hover:text-primary transition-smooth py-2"
+                  className="text-left text-foreground hover:text-primary transition-smooth py-2 cursor-pointer"
                 >
                   {item.label}
                 </button>
